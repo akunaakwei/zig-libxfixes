@@ -1,0 +1,25 @@
+.{
+    .name = .libxfixes,
+    .version = "6.0.2",
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .xfixes = .{
+            .url = "https://gitlab.freedesktop.org/xorg/lib/libxfixes/-/archive/libXfixes-6.0.2/libxfixes-libXfixes-6.0.2.tar.gz",
+            .hash = "N-V-__8AAFIgAQCJSug37AGy4zypGtiDtUR9wtQa8U74Nm0a",
+        },
+        .x11 = .{
+            .url = "https://github.com/akunaakwei/zig-libx11/archive/e84faf87f868e6fa0ea26e398e035b143e6d7f2e.tar.gz",
+            .hash = "libx11-1.8.13-NKkstnczAAD4Tp8HZdqSjK9QWX0JvCNh3MO8JyzOG2y6",
+        },
+        .xorgproto = .{
+            .url = "https://github.com/akunaakwei/zig-xorgproto/archive/9e416e104fa6067538c08e739de2862721a410cc.tar.gz",
+            .hash = "xorgproto-2025.1.0-38NRV9YKAAB8_MV39Y_a1TPHc5p55a8VAmiXDAJgU3t7",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "LICENSE",
+    },
+    .fingerprint = 0xb39ab3068cac9e6e,
+}
