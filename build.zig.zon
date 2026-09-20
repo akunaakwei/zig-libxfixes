@@ -8,8 +8,8 @@
             .hash = "N-V-__8AAFIgAQCJSug37AGy4zypGtiDtUR9wtQa8U74Nm0a",
         },
         .x11 = .{
-            .url = "https://github.com/akunaakwei/zig-libx11/archive/077a2d2cc95456befc94d63a0c49f28fac83979b.tar.gz",
-            .hash = "libx11-1.8.13-NKkstvVPAABEUcbFXDM3hqMcvt-UXsKcAQPJtaYne5N8",
+            .url = "https://github.com/akunaakwei/zig-libx11/archive/a5387d1af204117607ddca0e2c8b4e1dff956013.tar.gz",
+            .hash = "libx11-1.8.13-NKkstv5QAAAUBg88_YGJUvHe5SHn_dws85OQoYVIcIvi",
         },
         .xorgproto = .{
             .url = "https://github.com/akunaakwei/zig-xorgproto/archive/9e416e104fa6067538c08e739de2862721a410cc.tar.gz",
